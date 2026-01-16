@@ -2,15 +2,13 @@
 title: "El Efecto Safety Rail"
 ---
 
-El **Safety Rail Effect** (Efecto de Barandilla de Seguridad) es una metáfora en SPL que describe cómo las restricciones del sistema impiden que el usuario cometa errores de configuración, guiándolo siempre por un camino válido.
+El ***Safety Rail Effect*** (Efecto de Barandilla de Seguridad) es una metáfora utilizada en la Ingeniería de Software, y específicamente en las SPLs, para describir cómo las restricciones de un sistema impiden que el usuario cometa errores de configuración, guiándolo siempre por un camino válido.
 
-En frameworks extensibles como **jMetal**, la infraestructura de la SPL actúa como una "guía física" que evita que el desarrollador "caiga" en errores de implementación.
 
 ## Los Tres Pilares de la Barandilla
 
 ### 1. Prevención de Inconsistencias Semánticas
-Las reglas del Modelo de Características (Cross-Tree Constraints) impiden combinar elementos incompatibles. 
-
+Las restricciones del modelo de variabilidad impiden combinar elementos incompatibles. 
 
 
 ```{mermaid}
@@ -18,12 +16,32 @@ graph TD
     A[Algoritmo] --> B{Codificación}
     B --> C[Binaria]
     B --> D[Real]
+
     A --> E{Operador Crossover}
     E --> F[Single Point]
     E --> G[SBX]
-    
-    G -.-> |Requiere| D
-    F -.-> |Excluye| D
-    
+
+    G -.->|Requiere| D
+    F -.->|Excluye| D
+
     style G fill:#f96,stroke:#333
     style C fill:#dfd,stroke:#333
+```
+
+Si seleccionas "Codificación Binaria", el sistema deshabilita el operador "SBX" (Real). La barandilla bloquea el paso antes del error.
+
+```{mermaid}
+graph LR
+    A[Producto Base] --> B(Variante A)
+    A --> C(Variante B)
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+```
+
+### 2. Validación Automática de Parámetros
+El modelo restringe los rangos de entrada (ej. probabilidad de mutación entre 0 y 1). La validación ocurre en la interfaz de configuración, no en tiempo de ejecución, eliminando valores fuera de rango por diseño.
+
+### 3. Eliminación del Error en el "Cableado" (Wiring)
+
+La automatización mediante plantillas (ej. Jinja) garantiza que la conexión entre componentes (Algoritmo → Operadores → Problema) sea estructuralmente perfecta. El usuario no gestiona la instanciación manual, el sistema asume la integridad técnica.
+
+    Conclusión: El efecto Safety Rail transforma un proceso que depende de la pericia del experto en un proceso guiado donde el sistema asume la responsabilidad de la integridad: el sistema no te deja equivocarte.
