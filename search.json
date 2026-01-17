@@ -10,67 +10,88 @@
     ]
   },
   {
-    "objectID": "part1.html",
-    "href": "part1.html",
+    "objectID": "01-part1/part1.html",
+    "href": "01-part1/part1.html",
     "title": "Líneas de Productos",
     "section": "",
-    "text": "Referencias\nLa célebre afirmación de Ford y Crowther [1] resume de forma provocadora la filosofía de la producción en masa de principios del siglo XX. Lejos de ser una simple exageración, esta frase tenía un fundamento estrictamente técnico: el color negro era el que se secaba con mayor rapidez.\nEsta ventaja logística permitía acelerar la cadena de montaje y reducir los costes al mínimo, a costa de eliminar cualquier posibilidad de elección para el cliente. Se trataba de una producción eficiente, pero rígida, basada en la estandarización absoluta.\nEste escenario representa el extremo opuesto al concepto de Línea de Productos. Mientras que Ford sacrificó la variabilidad en favor de la eficiencia, las líneas de productos persiguen precisamente lo contrario: gestionar la variabilidad de forma sistemática y controlada, sin renunciar a la eficiencia.\nEn una Línea de Productos moderna, el objetivo es alcanzar la llamada personalización masiva: combinar la eficiencia de la producción en serie con la capacidad de ofrecer productos adaptados a las necesidades de cada cliente. En otras palabras, aspiramos a mantener la eficiencia del modelo de Ford, pero permitiendo que cada cliente pueda, ahora sí, elegir el color de su coche.",
+    "text": "Introducción a las Líneas de Productos\nLa célebre afirmación de Ford y Crowther [1] resume de forma provocadora la filosofía de la producción en masa de principios del siglo XX. Lejos de ser una simple exageración, esta frase tenía un fundamento estrictamente técnico: el color negro era el que se secaba con mayor rapidez.\nEsta ventaja logística permitía acelerar la cadena de montaje y reducir los costes al mínimo, a costa de eliminar cualquier posibilidad de elección para el cliente. Se trataba de una producción eficiente, pero rígida, basada en la estandarización absoluta.\nEste escenario representa el extremo opuesto al concepto de Línea de Productos. Mientras que Ford sacrificó la variabilidad en favor de la eficiencia, las líneas de productos persiguen precisamente lo contrario: gestionar la variabilidad de forma sistemática y controlada, sin renunciar a la eficiencia.\nEn una Línea de Productos moderna, el objetivo es alcanzar la llamada personalización masiva: combinar la eficiencia de la producción en serie con la capacidad de ofrecer productos adaptados a las necesidades de cada cliente. En otras palabras, aspiramos a mantener la eficiencia del modelo de Ford, pero permitiendo que cada cliente pueda, ahora sí, elegir el color de su coche.",
     "crumbs": [
       "Líneas de Productos"
     ]
   },
   {
-    "objectID": "part1.html#referencias",
-    "href": "part1.html#referencias",
+    "objectID": "01-part1/part1.html#introducción-a-las-líneas-de-productos",
+    "href": "01-part1/part1.html#introducción-a-las-líneas-de-productos",
     "title": "Líneas de Productos",
     "section": "",
-    "text": "[1] H.\nFord and S. Crowther, My life and work. Garden City, NY:\nDoubleday, Page & Company, 1922.",
+    "text": "“Un cliente puede elegir cualquier color para su coche, siempre que sea negro.”\n— Henry Ford, 1922",
     "crumbs": [
       "Líneas de Productos"
     ]
   },
   {
-    "objectID": "01-part1/ch01-intro/evolution.html",
-    "href": "01-part1/ch01-intro/evolution.html",
-    "title": "2  De la artesanía a la personalización masiva",
+    "objectID": "01-part1/part1.html#referencias",
+    "href": "01-part1/part1.html#referencias",
+    "title": "Líneas de Productos",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n\n\n\n\n\n[1] H. Ford and S. Crowther, My life and work. Garden City, NY: Doubleday, Page & Company, 1922.",
+    "crumbs": [
+      "Líneas de Productos"
+    ]
+  },
+  {
+    "objectID": "01-part1/ch01-intro/produccion.html",
+    "href": "01-part1/ch01-intro/produccion.html",
+    "title": "1  Paradigmas de producción",
     "section": "",
-    "text": "2.1 Artesanía\nPara comprender qué es una Línea de Productos (Product Line, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.\nDesde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre coste, velocidad y personalización. A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes paradigmas de producción, que sirven como marco conceptual para entender las líneas de productos:\nAntes de la Revolución Industrial (siglos XVIII y XIX), la producción era fundamentalmente artesanal. Un artesano experto diseñaba y fabricaba cada producto de manera individual, adaptándolo con precisión a las necesidades de un cliente concreto.\nSi alguien deseaba una mesa, esta se concebía y construía exclusivamente para él: se elegían los materiales, las dimensiones y los acabados de forma completamente personalizada.\nRasgos característicos:\nEn el ámbito del software, este modelo equivale a desarrollar un sistema desde cero para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. Aunque viable en contextos muy específicos, resulta difícilmente sostenible a gran escala.",
+    "text": "1.1 Artesanía\nDe la artesanía a la personalización masiva: Evolución histórica de la producción y la variabilidad\nPara comprender qué es una Línea de Productos (Product Line, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.\nDesde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre coste, eficiencia (velocidad) y personalización. A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes paradigmas de producción, que sirven como marco conceptual para entender las líneas de productos:\nAntes de la Revolución Industrial (siglos XVIII y XIX), la producción era fundamentalmente artesanal. En este contexto, cada producto se diseñaba y fabricaba de manera individual, atendiendo a las necesidades específicas de un cliente concreto.\nEste modelo se distingue por ofrecer un grado de personalización total y una alta calidad, estrechamente ligada a la destreza y experiencia del artesano. A cambio, presenta importantes limitaciones: el proceso es lento, costoso y difícilmente escalable, ya que cada unidad debe producirse de forma independiente.\nEn el ámbito del software, este enfoque equivale a desarrollar un sistema desde cero para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. Aunque viable en contextos muy concretos, resulta difícilmente sostenible a gran escala cuando se requiere producir múltiples sistemas de forma eficiente.",
     "crumbs": [
       "Líneas de Productos",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>De la artesanía a la personalización masiva</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paradigmas de producción</span>"
     ]
   },
   {
-    "objectID": "01-part1/ch01-intro/evolution.html#artesanía",
-    "href": "01-part1/ch01-intro/evolution.html#artesanía",
-    "title": "2  De la artesanía a la personalización masiva",
+    "objectID": "01-part1/ch01-intro/produccion.html#artesanía",
+    "href": "01-part1/ch01-intro/produccion.html#artesanía",
+    "title": "1  Paradigmas de producción",
     "section": "",
-    "text": "Ventajas:\n\nPersonalización total.\nAlta calidad, directamente ligada a la habilidad del artesano.\n\nLimitaciones:\n\nProceso lento.\nCoste elevado.\nEscalabilidad prácticamente inexistente (un artesano solo puede producir una unidad a la vez).\n\n\n\n\n\n\n\n\nNoteDefinición\n\n\n\nProducción artesanal (Handcrafting)\nModelo de producción basado en la fabricación individual de cada producto, altamente personalizado, pero con baja eficiencia y escasa capacidad de escalado.",
+    "text": "NoteDefinición\n\n\n\nProducción artesanal (Handcrafting)\nModelo de producción basado en la fabricación individual de cada producto, altamente personalizado, pero con baja eficiencia y escasa capacidad de escalado.\n\n\n\n\n\n\n\n\n\nTipEjemplo\n\n\n\nSi alguien deseaba una mesa, el artesano la concebía y construía exclusivamente para ese cliente, eligiendo los materiales, las dimensiones y los acabados de forma completamente personalizada. No existían dos mesas idénticas, ni procesos fácilmente reutilizables.",
     "crumbs": [
       "Líneas de Productos",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>De la artesanía a la personalización masiva</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paradigmas de producción</span>"
     ]
   },
   {
-    "objectID": "01-part1/ch01-intro/evolution.html#producción-en-masa",
-    "href": "01-part1/ch01-intro/evolution.html#producción-en-masa",
-    "title": "2  De la artesanía a la personalización masiva",
-    "section": "2.2 Producción en masa",
-    "text": "2.2 Producción en masa\nCon la llegada de la Revolución Industrial y el trabajo pionero de Henry Ford a comienzos del siglo XX [1], surge la necesidad de fabricar muchos productos, rápidamente y a bajo coste. La respuesta a este desafío fue la producción en masa.\nEste paradigma se sustenta en dos ideas fundamentales:\n\nLíneas de ensamblaje: el proceso productivo se divide en tareas simples, repetitivas y altamente especializadas.\nComponentes estandarizados: se diseñan piezas idénticas, intercambiables y reutilizables en todos los productos.\n\nEl impacto fue revolucionario: los costes se redujeron drásticamente, los tiempos de producción disminuyeron y la calidad media mejoró gracias a la repetición y al control sistemático de cada componente. Sin embargo, este éxito tuvo un precio claro: la personalización prácticamente desapareció.\n\n\n\n\n\n\nNoteDefinición\n\n\n\nProducción en masa (Mass Production)\nModelo de producción orientado a la eficiencia y al bajo coste mediante la estandarización de procesos y componentes, sacrificando la personalización del producto final.\n\n\nUn paralelismo claro en el mundo del software es el software estándar o off-the-shelf: soluciones de “talla única” (one-size-fits-all) como Microsoft Word, SAP o Windows. Son productos robustos y ampliamente probados, pero todos los usuarios reciben exactamente el mismo sistema, sin posibilidad de adaptación individual.",
+    "objectID": "01-part1/ch01-intro/produccion.html#producción-en-masa",
+    "href": "01-part1/ch01-intro/produccion.html#producción-en-masa",
+    "title": "1  Paradigmas de producción",
+    "section": "1.2 Producción en masa",
+    "text": "1.2 Producción en masa\nCon la llegada de la Revolución Industrial y el trabajo pionero de Henry Ford a comienzos del siglo XX [1], surge la necesidad de fabricar muchos productos, rápidamente y a bajo coste. La respuesta a este desafío fue la producción en masa [2].\n\n\n\n\n\n\nNoteDefinición\n\n\n\nProducción en masa (Mass Production)\nModelo de producción orientado a la eficiencia y al bajo coste mediante la estandarización de procesos y componentes, sacrificando la personalización del producto final.\n\n\nEste paradigma se sustenta en dos ideas fundamentales:\n\nLíneas de ensamblaje: el proceso productivo se divide en tareas simples, repetitivas y altamente especializadas.\nComponentes estandarizados: se diseñan piezas idénticas, intercambiables y reutilizables en todos los productos.\n\nEstas ideas permitieron reducir drásticamente los costes de producción, acortar los tiempos de fabricación y mejorar la calidad media gracias al control sistemático de cada componente. El éxito de este modelo tuvo, no obstante, una consecuencia clara: la personalización se vio severamente limitada. Todos los productos eran esencialmente iguales, y el cliente apenas tenía capacidad de elección.\n\n\n\n\n\n\nTipEjemplo\n\n\n\nEn una fábrica de automóviles, cada vehículo se ensambla siguiendo exactamente el mismo proceso y utilizando las mismas piezas. El resultado es un producto fiable y económico, pero prácticamente indistinguible del resto.\n\n\nUn paralelismo claro en el mundo del software es el software estándar o off-the-shelf: soluciones de “talla única” (one-size-fits-all) como Microsoft Word, SAP o Windows. Son productos robustos y ampliamente probados, pero todos los usuarios reciben exactamente el mismo sistema, sin posibilidad de adaptación individual.",
     "crumbs": [
       "Líneas de Productos",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>De la artesanía a la personalización masiva</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paradigmas de producción</span>"
     ]
   },
   {
-    "objectID": "01-part1/ch01-intro/evolution.html#personalización-masiva",
-    "href": "01-part1/ch01-intro/evolution.html#personalización-masiva",
-    "title": "2  De la artesanía a la personalización masiva",
-    "section": "2.3 Personalización masiva",
-    "text": "2.3 Personalización masiva\nA finales del siglo XX, y especialmente con la irrupción de Internet, el mercado deja de conformarse con productos uniformes. Los clientes desean conservar las ventajas de la producción en masa —rapidez y bajo coste—, pero exigen al mismo tiempo productos adaptados a sus necesidades específicas.\nLa personalización masiva surge como respuesta a esta demanda. Su principio fundamental puede resumirse como:\n\nEstandarización + Flexibilidad\n\nEn la práctica, esto se traduce en:\n\nEstandarización del núcleo: el “corazón” del producto (estructura y componentes base) se produce de forma uniforme y eficiente.\nFlexibilidad en la configuración: se ofrecen opciones controladas que permiten personalizar el producto final.\n\n\n\n\n\n\n\nNoteDefinición\n\n\n\nPersonalización masiva (Mass Customization)\nEstrategia de producción que combina la eficiencia de la estandarización con la capacidad de ofrecer productos personalizados mediante mecanismos de configuración controlada.\n\n\nEste enfoque se apoya en el uso de configuradores o sistemas de opciones, que permiten seleccionar características dentro de un catálogo predefinido. Así, el cliente personaliza su producto mientras el productor mantiene los beneficios de la producción en masa.\nEl ejemplo clásico es el de un automóvil: el chasis y el motor se fabrican en masa, pero el comprador elige el color, la tapicería o el sistema de sonido. En el software ocurre exactamente lo mismo.\n\nLa Línea de Productos es la aplicación sistemática de la personalización masiva al desarrollo de software: una forma de gestionar la variabilidad de manera controlada y eficiente sin renunciar a la productividad propia de la producción en masa.\n\n\n\n\n[1] H. Ford and S. Crowther, My life and work. Garden City, NY: Doubleday, Page & Company, 1922.",
+    "objectID": "01-part1/ch01-intro/produccion.html#personalización-masiva",
+    "href": "01-part1/ch01-intro/produccion.html#personalización-masiva",
+    "title": "1  Paradigmas de producción",
+    "section": "1.3 Personalización masiva",
+    "text": "1.3 Personalización masiva\nA finales del siglo XX, y especialmente con la irrupción de Internet, el mercado deja de conformarse con productos uniformes. Los clientes desean conservar las ventajas de la producción en masa —rapidez y bajo coste—, pero exigen al mismo tiempo productos adaptados a sus necesidades específicas.\n\n\n\n\n\n\nNoteDefinición\n\n\n\nPersonalización masiva (Mass Customization)\nModelo de producción que combina la eficiencia de la estandarización con la capacidad de ofrecer productos personalizados mediante mecanismos de configuración controlada.\n\n\nLa idea central de este paradigma puede resumirse como la combinación de estandarización y flexibilidad. En la práctica, el núcleo del producto (su estructura y componentes base) se produce de forma uniforme y eficiente, mientras que la variabilidad se introduce de manera controlada en la fase de configuración final.\nEste enfoque se apoya en el uso de configuradores o sistemas de opciones, que permiten seleccionar características dentro de un catálogo predefinido. De este modo, el cliente obtiene un producto personalizado sin que el productor renuncie a los beneficios de la producción en masa.\n\n\n\n\n\n\nTipEjemplo\n\n\n\nAl adquirir un automóvil, el chasis y el motor se fabrican en masa siguiendo procesos altamente estandarizados. Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de sonido, configurando un vehículo adaptado a sus preferencias personales.\n\n\nEn el ámbito del software, este mismo principio permite ofrecer sistemas altamente configurables a partir de una base común. El concepto de Línea de Productos Software constituye precisamente la aplicación sistemática de la personalización masiva al desarrollo de software.",
     "crumbs": [
       "Líneas de Productos",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>De la artesanía a la personalización masiva</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paradigmas de producción</span>"
+    ]
+  },
+  {
+    "objectID": "01-part1/ch01-intro/produccion.html#referencias",
+    "href": "01-part1/ch01-intro/produccion.html#referencias",
+    "title": "1  Paradigmas de producción",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n\n\n\n\n\n[1] H. Ford and S. Crowther, My life and work. Garden City, NY: Doubleday, Page & Company, 1922.\n\n\n[2] M. M. Tseng and J. Jiao, “Mass Customization,” in Handbook of Industrial Engineering, John Wiley & Sons, Ltd, 2001, pp. 684–709. doi: 10.1002/9780470172339.ch25.",
+    "crumbs": [
+      "Líneas de Productos",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Paradigmas de producción</span>"
     ]
   }
 ]
