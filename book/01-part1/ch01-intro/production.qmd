@@ -4,13 +4,13 @@
 Para comprender qué es una **Línea de Productos** (*Product Line*, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.
 
 Desde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre **coste**, **eficiencia** (velocidad) y **personalización**. 
-A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes **paradigmas de producción**, que sirven como marco conceptual para entender las líneas de productos:
+A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes **paradigmas de producción**, que sirven como marco conceptual para entender las líneas de productos (@fig-Production):
 
 - **Artesanía:** máxima personalización a costa de la eficiencia y la escalabilidad.
 - **Producción en masa:** eficiencia mediante estandarización y reducción de costes, sacrificando la personalización.
 - **Personalización masiva:** combinación de eficiencia y flexibilidad, gestionando la variabilidad de manera controlada.
 
-![Paradigmas de producción y su relación con coste, eficiencia y personalización.](images/produccion.svg "Paradigmas de Producción"){#fig-Production .lightbox}
+![Paradigmas de producción y su relación con coste, eficiencia y personalización.](images/produccion.svg "Paradigmas de Producción"){#fig-Production}
 
 ---
 
@@ -29,11 +29,11 @@ A cambio, presenta importantes limitaciones: el proceso es lento, costoso y dif�
 
 ::: {.callout-tip title="Ejemplo"}
 Si alguien deseaba una mesa, el artesano la concebía y construía exclusivamente para ese cliente, eligiendo los materiales, las dimensiones y los acabados de forma completamente personalizada. 
-No existían dos mesas idénticas, ni procesos fácilmente reutilizables.
+No existían dos mesas idénticas, ni procesos fácilmente reutilizables (@fig-Handcrafting).
 :::
 
 ::: {.aside}
-![Artesanía.](images/artesania.png "Artesanía"){#fig-Handcrafting .lightbox}
+![Artesanía.](images/artesania.png "Artesanía"){#fig-Handcrafting}
 :::
 
 En el ámbito del software, este enfoque equivale a desarrollar un sistema **desde cero** para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. 
@@ -62,11 +62,11 @@ Todos los productos eran esencialmente iguales, y el cliente apenas tenía capac
 
 ::: {.callout-tip title="Ejemplo"}
 En una fábrica de automóviles, cada vehículo se ensambla siguiendo exactamente el mismo proceso y utilizando las mismas piezas. 
-El resultado es un producto fiable y económico, pero prácticamente indistinguible del resto.
+El resultado es un producto fiable y económico, pero prácticamente indistinguible del resto (@fig-MassProduction).
 :::
 
 ::: {.aside}
-![Producción en masa.](images/produccion_masa.png "Producción en masa"){#fig-MassProduction .lightbox}
+![Producción en masa.](images/produccion_masa.png "Producción en masa"){#fig-MassProduction}
 :::
 
 Un paralelismo claro en el mundo del software es el **software estándar** o *off-the-shelf*: soluciones de "talla única" (*one-size-fits-all*) como Microsoft Word, SAP o Windows. 
@@ -92,11 +92,11 @@ De este modo, el cliente obtiene un producto personalizado sin que el productor 
 
 ::: {.callout-tip title="Ejemplo"}
 Al adquirir un automóvil, el chasis y el motor se fabrican en masa siguiendo procesos altamente estandarizados. 
-Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de sonido, configurando un vehículo adaptado a sus preferencias personales.
+Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de sonido, configurando un vehículo adaptado a sus preferencias personales (@fig-MassCustomization).
 :::
 
 ::: {.aside}
-![Personalización masiva.](images/personalizacion_masiva.png "Personalización masiva"){#fig-MassCustomization .lightbox}
+![Personalización masiva.](images/personalizacion_masiva.png "Personalización masiva"){#fig-MassCustomization}
 :::
 
 En el ámbito del software, este mismo principio permite ofrecer sistemas altamente configurables a partir de una base común. 

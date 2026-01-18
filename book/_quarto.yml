@@ -3,6 +3,8 @@ project:
   resources:
     - "**/images/*"
 
+lang: es
+
 book:
   title: "Líneas de Producto Software"
   author: "José Miguel Horcas"
@@ -28,15 +30,9 @@ format:
   html:
     theme: cosmo
     citeproc: true
+    lightbox: true
   pdf:
     documentclass: book
-    cite-method: citeproc
     pdf-engine: xelatex
     fig-format: pdf
     fig-graphics: true
-    include-in-header:
-      text: |
-        \usepackage{marginnote}
-        \reversemarginpar % Si quieres que salgan siempre en un lado específico
-        \setlength{\marginparwidth}{2cm}
-    

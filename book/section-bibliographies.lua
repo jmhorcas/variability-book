@@ -121,6 +121,9 @@ local function create_section_bibliography (meta, opts)
     section = pandoc.Blocks(section):walk{
       Cite = function (cite)
         cite.citations = cite.citations:map(function(c)
+            if c.id:match('^fig%-') or c.id:match('^tbl%-') then
+                return c
+            end
             c.id = c.id .. suffix
             return c
         end)
