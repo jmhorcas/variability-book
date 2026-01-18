@@ -1,7 +1,7 @@
 # Quarto - Carpetas de salida y temporales
 /.quarto/
 **/*.quarto_ipynb
-/_book/
+**/_book/
 /docs/
 /_site/
 /_freeze/
@@ -17,3 +17,13 @@ Thumbs.db
 # Archivos de log y temporales
 *.log
 *.tmp
+
+# Archivos temporales de LaTeX
+*.tex
+*.log
+*.aux
+*.out
+*.toc
+*.pdf
+*.fdb_latexmk
+*.fls

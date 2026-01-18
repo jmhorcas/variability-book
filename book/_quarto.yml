@@ -34,4 +34,9 @@ format:
     pdf-engine: xelatex
     fig-format: pdf
     fig-graphics: true
+    include-in-header:
+      text: |
+        \usepackage{marginnote}
+        \reversemarginpar % Si quieres que salgan siempre en un lado específico
+        \setlength{\marginparwidth}{2cm}
     

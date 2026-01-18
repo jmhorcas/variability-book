@@ -38,7 +38,7 @@ Un fabricante como [BMW](https://www.bmw.es/es/configurador.html) (entre muchos 
 Aunque estos modelos difieren en precio, prestaciones o diseño exterior, comparten una parte sustancial de su ingeniería. Elementos como la plataforma del chasis, numerosos componentes electrónicos, los sistemas de infoentretenimiento o gran parte del software embarcado son activos reutilizables comunes.
 
 ::: {.aside}
-![Configurador de automóviles.](images/configurador_automovil.png "Configurador de automóviles"){#fig-configurador_automovil width="100%"}
+![Configurador de automóviles.](images/configurador_automovil.png "Configurador de automóviles"){#fig-AutomobileConfigurator .lightbox}
 :::
 
 La variabilidad se introduce de forma controlada a través de un **configurador**, que permite al cliente seleccionar opciones como el tipo de motor, el color, el equipamiento o los interiores. El producto final no se diseña desde cero, sino que se ensambla como una configuración concreta de la Línea de Productos, combinando componentes comunes con variantes predefinidas.
@@ -55,7 +55,7 @@ El restaurante mantiene un conjunto común de componentes —bases, proteínas, 
 No existen ensaladas completamente distintas, sino múltiples combinaciones posibles a partir de un mismo conjunto de ingredientes reutilizables.
 
 ::: {.aside}
-![Configurador de comida rápida.](images/configurador_burger.png "Configurador de comida rápida"){#fig-configurador_burger width="100%"}
+![Configurador de comida rápida.](images/configurador_burger.png "Configurador de comida rápida"){#fig-FastFoodConfigurator .lightbox}
 :::
 
 Algo similar ocurre con las hamburguesas configurables. El establecimiento parte de una base estandarizada (pan y carne) y permite seleccionar distintos extras (tomate, queso, bacon,...) para generar una gran variedad de productos finales sin modificar el proceso productivo subyacente.

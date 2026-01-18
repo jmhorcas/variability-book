@@ -1,4 +1,4 @@
-# variability-book
+# SPL book
 
 ## Dependencies
 

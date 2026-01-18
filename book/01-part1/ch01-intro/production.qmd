@@ -10,7 +10,7 @@ A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes **paradigmas
 - **Producción en masa:** eficiencia mediante estandarización y reducción de costes, sacrificando la personalización.
 - **Personalización masiva:** combinación de eficiencia y flexibilidad, gestionando la variabilidad de manera controlada.
 
-![Paradigmas de producción y su relación con coste, eficiencia y personalización.](images/produccion.svg "Paradigmas de Producción"){#fig-produccion width="100%"}
+![Paradigmas de producción y su relación con coste, eficiencia y personalización.](images/produccion.svg "Paradigmas de Producción"){#fig-Production .lightbox}
 
 ---
 
@@ -33,7 +33,7 @@ No existían dos mesas idénticas, ni procesos fácilmente reutilizables.
 :::
 
 ::: {.aside}
-![Artesanía.](images/artesania.png "Artesanía"){#fig-artesania width="100%"}
+![Artesanía.](images/artesania.png "Artesanía"){#fig-Handcrafting .lightbox}
 :::
 
 En el ámbito del software, este enfoque equivale a desarrollar un sistema **desde cero** para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. 
@@ -66,7 +66,7 @@ El resultado es un producto fiable y económico, pero prácticamente indistingui
 :::
 
 ::: {.aside}
-![Producción en masa.](images/produccion_masa.png "Producción en masa"){#fig-produccion_masa width="100%"}
+![Producción en masa.](images/produccion_masa.png "Producción en masa"){#fig-MassProduction .lightbox}
 :::
 
 Un paralelismo claro en el mundo del software es el **software estándar** o *off-the-shelf*: soluciones de "talla única" (*one-size-fits-all*) como Microsoft Word, SAP o Windows. 
@@ -96,7 +96,7 @@ Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de s
 :::
 
 ::: {.aside}
-![Personalización masiva.](images/personalizacion_masiva.png "Personalización masiva"){#fig-personalizacion_masiva width="100%"}
+![Personalización masiva.](images/personalizacion_masiva.png "Personalización masiva"){#fig-MassCustomization .lightbox}
 :::
 
 En el ámbito del software, este mismo principio permite ofrecer sistemas altamente configurables a partir de una base común. 
