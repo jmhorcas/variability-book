@@ -54,3 +54,4 @@ format:
     pdf-engine: xelatex
     fig-format: pdf
     fig-graphics: true
+    latex-auto-install: true
